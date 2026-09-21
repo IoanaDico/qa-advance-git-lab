@@ -1,8 +1,8 @@
 public class Calculator {
 //Calculeaza suma a doua numere
-  public int aduna(int a, int b) {
+  public int aduna(int a, int b, int bonus= 2) {
     //Temporar, adunam si un bonus hardcodar
-  int bonus = 2;
+   //int bonus = 2;
   return a + b + bonus;
   }
   public static void main(String[] args) {
